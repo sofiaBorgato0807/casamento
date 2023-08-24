@@ -1,0 +1,130 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    .jumbotronH {
+      background-image: url('https://i0.wp.com/www.casaitaim.com.br/wp-content/uploads/2022/05/decoracao-casamento-sp.jpg?fit=1200%2C800&ssl=1');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      padding: 100px;
+      text-align: center;
+    }
+
+    .navbar {
+      background-color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      .jumbotron {
+        padding: 50px;
+      }
+    }
+
+    /*sobre*/
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .jumbotron {
+      background-color: #f8f9fa;
+      padding: 100px;
+      text-align: center;
+    }
+
+    .image-container {
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      max-height: 400px;
+      margin: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .jumbotron {
+        padding: 50px;
+      }
+    }
+
+       /* serviços */
+       body {
+        font-family: Arial, sans-serif;
+      }
+    
+      .jumbotron {
+        background-color: #f8f9fa;
+        padding: 100px;
+        text-align: center;
+      }
+  
+      .service-card {
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+      }
+  
+      @media (max-width: 768px) {
+        .jumbotron {
+          padding: 50px;
+        }
+      }
+
+        /* galeria */
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .gallery-item {
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      max-width: 100%;
+      border-radius: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .gallery-item {
+        margin-bottom: 10px;
+      }
+    }
+
+  
+body {
+  font-family: Arial, sans-serif;
+}
+
+
+.galeria-item {
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .galeria-item {
+    margin-bottom: 10px;
+  }
+}
+
+/* contato */
+body {
+  font-family: Arial, sans-serif;
+}
+@media (max-width: 768px) {
+  .mb-3,
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
+footer {
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  margin-top: 6%;
+}
